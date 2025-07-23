@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.jvnet.staxex:stax-ex</id>
+    <version>1.8</version>
+    <type>jar</type>
+    <name>Extended StAX API</name>
+    <summary>Extensions to JSR-173 StAX API.</summary>
+    <website>http://stax-ex.java.net/</website>
+    <authors>
+        <author>
+            <name>Roman Grigoriadi</name>
+        </author>
+        <author>
+            <name>Zheng Jun Li</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>Dual license consisting of the CDDL v1.1 and GPL v2</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>javax.activation:activation</id>
+            <version>1.1</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

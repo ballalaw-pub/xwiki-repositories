@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-extension-handler-xar</id>
+    <version>16.10.9</version>
+    <type>jar</type>
+    <name>XWiki Platform - Extension - Handler - XAR</name>
+    <summary>XWiki Platform - Extension - Handler - XAR</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-extension-handler-xar:16.10.9:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-extension/xwiki-platform-extension-handlers/xwiki-platform-extension-handler-xar</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-model-api</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-oldcore</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-mail-api</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-extension-script</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-xar-model</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-refactoring-api</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-tree-api</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.commons:xwiki-commons-properties</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.commons:xwiki-commons-diff-display</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.commons:xwiki-commons-displayer</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>commons-codec:commons-codec</id>
+            <version>1.18.0</version>
+        </dependency>
+        <dependency>
+            <id>org.apache.commons:commons-lang3</id>
+            <version>3.17.0</version>
+        </dependency>
+        <dependency>
+            <id>org.apache.commons:commons-compress</id>
+            <version>1.27.1</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-store-merge-default</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.commons:xwiki-commons-extension-api</id>
+            <version>16.10.9</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-tag-ui</id>
+    <version>16.10.9</version>
+    <type>xar</type>
+    <name>Tag Application</name>
+    <summary>Tag application for XWiki</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-tag-ui:16.10.9:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-tag/xwiki-platform-tag-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-tag-api</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-notifications-ui</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.rendering:xwiki-rendering-macro-message</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-container</id>
+            <version>16.10.9</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

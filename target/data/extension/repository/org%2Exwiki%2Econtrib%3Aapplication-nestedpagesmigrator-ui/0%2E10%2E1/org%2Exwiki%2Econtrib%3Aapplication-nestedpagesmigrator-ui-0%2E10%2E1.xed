@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.contrib:application-nestedpagesmigrator-ui</id>
+    <version>0.10.1</version>
+    <type>xar</type>
+    <name>Nested Pages Migrator Application</name>
+    <summary>Helper to convert terminal pages into Nested Pages.</summary>
+    <website>http://extensions.xwiki.org?id=org.xwiki.contrib:application-nestedpagesmigrator-ui:0.10.1:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/parent-platform/application-nestedpagesmigrator/application-nestedpagesmigrator-ui</website>
+    <authors>
+        <author>
+            <name>Guillaume Delhumeau</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.contrib:application-nestedpagesmigrator-api</id>
+            <version>0.10.1</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:knockout</id>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-tree-webjar</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-security-script</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.rendering:xwiki-rendering-macro-message</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.rendering:xwiki-rendering-macro-html</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-velocity</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:jquery-ui</id>
+            <version>1.11.4</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-icon-fontawesome</id>
+            <version>8.4</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

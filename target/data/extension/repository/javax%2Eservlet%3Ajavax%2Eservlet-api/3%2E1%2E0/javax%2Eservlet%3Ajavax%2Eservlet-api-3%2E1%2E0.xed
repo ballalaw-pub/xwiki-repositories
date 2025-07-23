@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>javax.servlet:javax.servlet-api</id>
+    <version>3.1.0</version>
+    <type>jar</type>
+    <name>Java Servlet API</name>
+    <summary>Java.net - The Source for Java Technology Collaboration</summary>
+    <website>http://servlet-spec.java.net</website>
+    <authors>
+        <author>
+            <name>Rajiv Mordani</name>
+            <url>http://weblogs.java.net/blog/mode</url>
+        </author>
+        <author>
+            <name>Shing Wai Chan</name>
+            <url>http://weblogs.java.net/blog/swchan2</url>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>CDDL + GPLv2 with classpath exception</name>
+        </license>
+    </licenses>
+    <properties/>
+</extension>

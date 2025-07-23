@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.apache.hadoop:hadoop-auth</id>
+    <version>2.7.2</version>
+    <type>jar</type>
+    <name>Apache Hadoop Auth</name>
+    <summary>Apache Hadoop Auth - Java HTTP SPNEGO</summary>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.slf4j:slf4j-api</id>
+            <version>1.7.10</version>
+        </dependency>
+        <dependency>
+            <id>commons-codec:commons-codec</id>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <id>log4j:log4j</id>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <id>org.slf4j:slf4j-log4j12</id>
+            <version>1.7.10</version>
+        </dependency>
+        <dependency>
+            <id>org.apache.httpcomponents:httpclient</id>
+            <version>4.2.5</version>
+        </dependency>
+        <dependency>
+            <id>org.apache.directory.server:apacheds-kerberos-codec</id>
+            <version>2.0.0-M15</version>
+        </dependency>
+        <dependency>
+            <id>org.apache.zookeeper:zookeeper</id>
+            <version>3.4.6</version>
+        </dependency>
+        <dependency>
+            <id>org.apache.curator:curator-framework</id>
+            <version>2.7.1</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

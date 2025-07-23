@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-mail-send-storage</id>
+    <version>16.10.9</version>
+    <type>jar</type>
+    <name>Mail Sender Storage API</name>
+    <summary>API to store mails and their statuses</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-mail-send-storage:16.10.9:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-mail/xwiki-platform-mail-send/xwiki-platform-mail-send-storage</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-mail-send-api</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-mail-send-default</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-oldcore</id>
+            <version>16.10.9</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.commons:xwiki-commons-script</id>
+            <version>16.10.9</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

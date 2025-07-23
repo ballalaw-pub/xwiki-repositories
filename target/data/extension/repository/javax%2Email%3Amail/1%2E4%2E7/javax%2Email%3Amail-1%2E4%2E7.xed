@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>javax.mail:mail</id>
+    <version>1.4.7</version>
+    <type>jar</type>
+    <name>JavaMail API (compat)</name>
+    <summary>JavaMail API (compat)</summary>
+    <website>http://kenai.com/projects/javamail/mail</website>
+    <authors>
+        <author>
+            <name>Bill Shannon</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>CDDL</name>
+        </license>
+        <license>
+            <name>GPLv2+CE</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>javax.activation:activation</id>
+            <version>1.1</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

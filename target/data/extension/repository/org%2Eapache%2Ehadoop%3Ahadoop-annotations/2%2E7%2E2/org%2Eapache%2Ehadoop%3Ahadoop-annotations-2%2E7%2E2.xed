@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.apache.hadoop:hadoop-annotations</id>
+    <version>2.7.2</version>
+    <type>jar</type>
+    <name>Apache Hadoop Annotations</name>
+    <summary>Apache Hadoop Annotations</summary>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+        </license>
+    </licenses>
+    <properties/>
+</extension>

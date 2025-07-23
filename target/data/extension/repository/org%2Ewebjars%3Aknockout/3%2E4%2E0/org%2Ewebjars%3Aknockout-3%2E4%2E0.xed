@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.webjars:knockout</id>
+    <version>3.4.0</version>
+    <type>jar</type>
+    <name>knockout</name>
+    <summary>WebJar for Knockout</summary>
+    <website>http://webjars.org</website>
+    <authors>
+        <author>
+            <name>James Ward</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+        </license>
+    </licenses>
+    <properties/>
+</extension>

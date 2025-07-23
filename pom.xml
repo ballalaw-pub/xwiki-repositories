@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xwiki</groupId>
+  <artifactId>xwiki-extensions</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>My Offline Respository</name>
+  <packaging>pom</packaging>
+  <description>Copy all extensions used by My Project in the Extension Manager folder so that EM does not need to
+    download them at runtime and My project can be installed offline.</description>
+  <properties>
+    <platform.version>16.10.9</platform.version>
+    <rendering.version>16.10.9</rendering.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-distribution-war</artifactId>
+      <version>${platform.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-distribution-flavor-mainwiki</artifactId>
+      <version>${platform.version}</version>
+      <type>xar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-distribution-flavor-wiki</artifactId>
+      <version>${platform.version}</version>
+      <type>xar</type>
+    </dependency>
+    <!-- Admin Tools Application (usually useful) -->
+    <dependency>
+      <groupId>org.xwiki.contrib</groupId>
+      <artifactId>xwiki-application-admintools</artifactId>
+      <version>4.5.5</version>
+      <type>xar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.xwiki.contrib</groupId>
+      <artifactId>application-nestedpagesmigrator-ui</artifactId>
+      <version>0.10.1</version>
+      <type>xar</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- To prepare the repository -->
+      <plugin>
+        <groupId>org.xwiki.contrib</groupId>
+        <artifactId>offline-xwiki-repository-packager-maven-plugin</artifactId>
+        <version>1.0</version>
+        <configuration>
+          <excludes>
+            <!-- Exclude JARs that have legacy versions in the WAR -->
+            <exclude>org.xwiki.commons:xwiki-commons-component-api</exclude>
+            <exclude>org.xwiki.commons:xwiki-commons-component-default</exclude>
+            <exclude>org.xwiki.rendering:xwiki-rendering-api</exclude>
+            <exclude>org.xwiki.platform:xwiki-platform-office-importer</exclude>
+            <exclude>org.xwiki.platform:xwiki-platform-oldcore</exclude>
+            <exclude>org.xwiki.platform:xwiki-platform-rendering-macro-include</exclude>
+            <!-- A special case, to the improved Blog Application between 8.4.2 and 9.2 -->
+            <exclude>org.xwiki.platform:xwiki-platform-blog-ui</exclude>
+          </excludes>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>package-extensions</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- To assemble the repository in a ZIP file for easy transfer -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <appendAssemblyId>false</appendAssemblyId>
+          <descriptors>
+            <descriptor>${basedir}/src/assemble/offline-repository.xml</descriptor>
+          </descriptors>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!-- Not available on Maven central -->
+  <pluginRepositories>
+    <pluginRepository>
+      <id>xwiki-plugin-releases</id>
+      <name>XWiki Plugins Repository</name>
+      <url>https://nexus.xwiki.org/nexus/content/groups/public/</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>xwiki-releases</id>
+      <name>XWiki Repository</name>
+      <url>https://nexus.xwiki.org/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+</project>

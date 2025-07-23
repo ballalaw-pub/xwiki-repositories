@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-icon-ui</id>
+    <version>8.4</version>
+    <type>xar</type>
+    <name>Icon Theme Application</name>
+    <summary>Manage and display icons used all over the wiki</summary>
+    <website>http://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-icon-ui:8.4:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-icon/xwiki-platform-icon-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-icon-script</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-icon-default</id>
+            <version>8.4</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:requirejs</id>
+            <version>2.2.0</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:jquery</id>
+            <version>2.2.2</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

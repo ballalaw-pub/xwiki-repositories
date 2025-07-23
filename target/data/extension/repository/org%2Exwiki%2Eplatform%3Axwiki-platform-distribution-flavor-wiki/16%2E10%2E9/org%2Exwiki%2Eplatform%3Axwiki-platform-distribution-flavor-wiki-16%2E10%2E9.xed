@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-distribution-flavor-wiki</id>
+    <version>16.10.9</version>
+    <type>xar</type>
+    <name>XWiki Standard Flavor for sub-wikis</name>
+    <summary>Default set of wiki pages containing both content and default applications for XWiki Flavor Sub Wiki</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-distribution-flavor-wiki:16.10.9:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-distribution/xwiki-platform-distribution-flavor/xwiki-platform-distribution-flavor-wiki</website>
+    <extensionfeatures>
+        <feature>
+            <feature>org.xwiki.enterprise:xwiki-enterprise-ui-wiki</feature>
+            <version>16.10.9</version>
+        </feature>
+    </extensionfeatures>
+    <features>
+        <feature>org.xwiki.enterprise:xwiki-enterprise-ui-wiki</feature>
+    </features>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-distribution-flavor-common</id>
+            <version>16.10.9</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>commons-chain:commons-chain</id>
+    <version>1.1</version>
+    <type>jar</type>
+    <name>Commons Chain</name>
+    <summary>An implmentation of the GoF Chain of Responsibility pattern</summary>
+    <website>http://jakarta.apache.org/commons/${pom.artifactId.substring(8)}/</website>
+    <authors>
+        <author>
+            <name>Craig McClanahan</name>
+        </author>
+        <author>
+            <name>Ted Husted</name>
+        </author>
+        <author>
+            <name>Martin Cooper</name>
+        </author>
+        <author>
+            <name>Don Brown</name>
+        </author>
+        <author>
+            <name>James Mitchell</name>
+        </author>
+        <author>
+            <name>Joe Germuska</name>
+        </author>
+        <author>
+            <name>Niall Pemberton</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>javax.portlet:portlet-api</id>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <id>myfaces:myfaces-api</id>
+            <version>1.1.0</version>
+        </dependency>
+        <dependency>
+            <id>commons-beanutils:commons-beanutils</id>
+            <version>1.7.0</version>
+        </dependency>
+        <dependency>
+            <id>commons-digester:commons-digester</id>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <id>commons-logging:commons-logging</id>
+            <version>1.0.3</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>xalan:serializer</id>
+    <version>2.7.2</version>
+    <type>jar</type>
+    <name>Xalan Java Serializer</name>
+    <summary>Serializer to write out XML, HTML etc. as a stream of characters from an input DOM or from input
+    SAX events.</summary>
+    <website>http://xml.apache.org/xalan-j/</website>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>xml-apis:xml-apis</id>
+            <version>1.3.04</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

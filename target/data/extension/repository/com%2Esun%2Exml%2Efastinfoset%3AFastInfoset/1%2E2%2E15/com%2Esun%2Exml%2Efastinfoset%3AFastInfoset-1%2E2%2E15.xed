@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>com.sun.xml.fastinfoset:FastInfoset</id>
+    <version>1.2.15</version>
+    <type>jar</type>
+    <name>fastinfoset</name>
+    <summary>Open Source implementation of the Fast Infoset Standard for Binary XML (http://www.itu.int/ITU-T/asn1/).</summary>
+    <website>http://fi.java.net</website>
+    <authors>
+        <author>
+            <name>Paul Sandoz</name>
+            <url>http://blogs.sun.com/sandoz/</url>
+        </author>
+        <author>
+            <name>Oleksiy Stashok</name>
+            <url>http://blogs.sun.com/oleksiys/</url>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+        </license>
+    </licenses>
+    <properties/>
+</extension>
