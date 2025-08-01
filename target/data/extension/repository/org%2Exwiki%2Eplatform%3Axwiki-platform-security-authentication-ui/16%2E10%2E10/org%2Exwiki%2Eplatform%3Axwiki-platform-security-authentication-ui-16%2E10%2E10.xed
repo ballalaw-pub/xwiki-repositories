@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-security-authentication-ui</id>
+    <version>16.10.10</version>
+    <type>xar</type>
+    <name>Authentication Application</name>
+    <summary>UI to configure which Authentication implementation should your wiki use</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-security-authentication-ui:16.10.10:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-security/xwiki-platform-security-authentication/xwiki-platform-security-authentication-ui</website>
+    <extensionfeatures>
+        <feature>
+            <feature>org.xwiki.contrib:authservice-backport-ui</feature>
+            <version>16.10.10</version>
+        </feature>
+    </extensionfeatures>
+    <features>
+        <feature>org.xwiki.contrib:authservice-backport-ui</feature>
+    </features>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-security-authentication-api</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-captcha-jcaptcha-api</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-captcha-jcaptcha-ui</id>
+            <version>16.10.10</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

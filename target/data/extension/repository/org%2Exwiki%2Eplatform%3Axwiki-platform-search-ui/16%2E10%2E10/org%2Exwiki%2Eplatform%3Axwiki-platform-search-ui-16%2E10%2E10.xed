@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-search-ui</id>
+    <version>16.10.10</version>
+    <type>xar</type>
+    <name>Search Application</name>
+    <summary>Allows searching on the full wiki using wildcards, searching by space, getting search result RSS feeds and more. By default provides a Database-backed search but allows pluging other engines (such as Lucene, Solr and more)</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-search-ui:16.10.10:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-search/xwiki-platform-search-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-uiextension-ui</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-search-api</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:requirejs</id>
+            <version>2.3.7</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:jquery</id>
+            <version>3.7.1</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-search-webjar</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-administration-ui</id>
+            <version>16.10.10</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

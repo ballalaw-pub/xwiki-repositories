@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-xclass-ui</id>
+    <version>16.10.10</version>
+    <type>xar</type>
+    <name>XClass Application</name>
+    <summary>Helper pages for creating and listing Class/Template/Sheets</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-xclass-ui:16.10.10:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-xclass/xwiki-platform-xclass-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-localization-macro</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-velocity</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.rendering:xwiki-rendering-macro-html</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-include</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.rendering:xwiki-rendering-macro-message</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-livetable-ui</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-livedata-macro</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-livedata-livetable</id>
+            <version>16.10.10</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-xwiki</id>
+            <version>16.10.10</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>
