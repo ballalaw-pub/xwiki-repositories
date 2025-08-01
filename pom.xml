@@ -11,8 +11,8 @@
   <description>Copy all extensions used by My Project in the Extension Manager folder so that EM does not need to
     download them at runtime and My project can be installed offline.</description>
   <properties>
-    <platform.version>16.10.9</platform.version>
-    <rendering.version>16.10.9</rendering.version>
+    <platform.version>16.10.0</platform.version>
+    <rendering.version>16.10.0</rendering.version>
   </properties>
 
   <dependencies>

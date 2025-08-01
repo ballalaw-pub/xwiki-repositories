@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-uiextension-ui</id>
+    <version>16.10.0</version>
+    <type>xar</type>
+    <name>XWiki Platform - UI Extension - UI</name>
+    <summary>UI for the User Interface Extensions</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-uiextension-ui:16.10.0:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-uiextension/xwiki-platform-uiextension-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-uiextension-default</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-velocity</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-code</id>
+            <version>16.10.0</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

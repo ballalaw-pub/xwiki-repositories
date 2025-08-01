@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-ckeditor-ui</id>
+    <version>16.10.0</version>
+    <type>xar</type>
+    <name>CKEditor Integration</name>
+    <summary>Adds support for editing wiki pages using CKEditor.</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-ckeditor-ui:16.10.0:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-ckeditor/xwiki-platform-ckeditor-ui</website>
+    <extensionfeatures>
+        <feature>
+            <feature>org.xwiki.contrib:application-ckeditor-ui</feature>
+            <version>16.10.0</version>
+        </feature>
+    </extensionfeatures>
+    <features>
+        <feature>org.xwiki.contrib:application-ckeditor-ui</feature>
+    </features>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-ckeditor-webjar</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-ckeditor-plugins</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:requirejs</id>
+            <version>2.3.7</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:jquery</id>
+            <version>3.7.1</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-sheet-ui</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-rendering-macro-velocity</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.rendering:xwiki-rendering-macro-html</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.webjars:bootstrap-select</id>
+            <version>1.13.18</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-administration-ui</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-store-filesystem-oldcore</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-search-solr-ui</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-extension-script</id>
+            <version>16.10.0</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

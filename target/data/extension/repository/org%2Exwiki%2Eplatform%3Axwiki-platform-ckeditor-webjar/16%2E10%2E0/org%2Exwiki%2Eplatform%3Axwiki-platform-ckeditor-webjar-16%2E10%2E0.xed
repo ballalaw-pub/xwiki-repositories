@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-ckeditor-webjar</id>
+    <version>16.10.0</version>
+    <type>jar</type>
+    <name>CKEditor WebJar</name>
+    <summary>Packages CKEditor code in a WebJar.</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-ckeditor-webjar:16.10.0:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-ckeditor/xwiki-platform-ckeditor-webjar</website>
+    <extensionfeatures>
+        <feature>
+            <feature>org.xwiki.contrib:application-ckeditor-webjar</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>org.webjars:ckeditor/4.22.1</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>org.webjars.npm:ckeditor/4.22.1</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>ckeditor4/4.22.1</feature>
+            <version>16.10.0</version>
+        </feature>
+    </extensionfeatures>
+    <features>
+        <feature>org.xwiki.contrib:application-ckeditor-webjar</feature>
+        <feature>org.webjars:ckeditor/4.22.1</feature>
+        <feature>org.webjars.npm:ckeditor/4.22.1</feature>
+        <feature>ckeditor4/4.22.1</feature>
+    </features>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <properties/>
+</extension>

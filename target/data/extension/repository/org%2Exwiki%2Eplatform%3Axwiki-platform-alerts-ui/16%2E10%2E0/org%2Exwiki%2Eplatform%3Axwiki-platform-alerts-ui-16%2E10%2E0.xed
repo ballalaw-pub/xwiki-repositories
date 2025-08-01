@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-alerts-ui</id>
+    <version>16.10.0</version>
+    <type>xar</type>
+    <name>Alerts Application</name>
+    <summary>Application that adds an "alert" menu in the skin.</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-alerts-ui:16.10.0:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-alerts/xwiki-platform-alerts-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <properties/>
+</extension>

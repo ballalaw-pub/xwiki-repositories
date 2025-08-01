@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-distribution-flavor-mainwiki</id>
+    <version>16.10.0</version>
+    <type>xar</type>
+    <name>XWiki Standard Flavor</name>
+    <summary>Default set of wiki pages containing both content and default applications for XWiki Flavor Main Wiki</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-distribution-flavor-mainwiki:16.10.0:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-distribution/xwiki-platform-distribution-flavor/xwiki-platform-distribution-flavor-mainwiki</website>
+    <extensionfeatures>
+        <feature>
+            <feature>org.xwiki.enterprise:xwiki-enterprise-ui-mainwiki</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>com.xpn.xwiki.products:xwiki-enterprise-manager-wiki-administrator</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>org.xwiki.manager:xwiki-enterprise-manager-wiki-administrator</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>org.xwiki.manager:xwiki-manager-wiki-administrator</feature>
+            <version>16.10.0</version>
+        </feature>
+        <feature>
+            <feature>org.xwiki.manager:xwiki-manager-ui</feature>
+            <version>16.10.0</version>
+        </feature>
+    </extensionfeatures>
+    <features>
+        <feature>org.xwiki.enterprise:xwiki-enterprise-ui-mainwiki</feature>
+        <feature>com.xpn.xwiki.products:xwiki-enterprise-manager-wiki-administrator</feature>
+        <feature>org.xwiki.manager:xwiki-enterprise-manager-wiki-administrator</feature>
+        <feature>org.xwiki.manager:xwiki-manager-wiki-administrator</feature>
+        <feature>org.xwiki.manager:xwiki-manager-ui</feature>
+    </features>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-distribution-flavor-common</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-mail-resender-ui</id>
+            <version>16.10.0</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>

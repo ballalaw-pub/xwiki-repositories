@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+    <id>org.xwiki.platform:xwiki-platform-dashboard-ui</id>
+    <version>16.10.0</version>
+    <type>xar</type>
+    <name>Dashboard Application</name>
+    <summary>Dashboard Application</summary>
+    <website>https://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-dashboard-ui:16.10.0:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-dashboard/xwiki-platform-dashboard-ui</website>
+    <authors>
+        <author>
+            <name>XWiki Development Team</name>
+        </author>
+    </authors>
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License 2.1</name>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-dashboard-macro</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-index-ui</id>
+            <version>16.10.0</version>
+        </dependency>
+        <dependency>
+            <id>org.xwiki.platform:xwiki-platform-ckeditor-ui</id>
+            <version>16.10.0</version>
+        </dependency>
+    </dependencies>
+    <properties/>
+</extension>
