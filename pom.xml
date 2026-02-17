@@ -11,8 +11,8 @@
   <description>Copy all extensions used by My Project in the Extension Manager folder so that EM does not need to
     download them at runtime and My project can be installed offline.</description>
   <properties>
-    <platform.version>17.10.2</platform.version>
-    <rendering.version>17.10.2</rendering.version>
+    <platform.version>17.10.3</platform.version>
+    <rendering.version>17.10.3</rendering.version>
   </properties>
 
   <dependencies>
@@ -44,18 +44,24 @@
     <dependency>
       <groupId>org.xwiki.contrib</groupId>
       <artifactId>xwiki-application-admintools</artifactId>
-      <version>4.5.5</version>
+      <version>4.5.6</version>
       <type>xar</type>
     </dependency>
     <dependency>
       <groupId>org.xwiki.contrib</groupId>
       <artifactId>application-nestedpagesmigrator-ui</artifactId>
-      <version>0.10.1</version>
+      <version>0.10.2</version>
       <type>xar</type>
     </dependency>
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-icon-fontawesome</artifactId>
+      <version>${platform.version}</version>
+      <type>xar</type>
+    </dependency>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-scheduler-ui</artifactId>
       <version>${platform.version}</version>
       <type>xar</type>
     </dependency>
